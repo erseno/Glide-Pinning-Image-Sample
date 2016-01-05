@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Persistence Module Sample</string>
+    <string name="action_download_content_offline">Download Content Offline</string>
+    <string name="msg_content_successfully_downloaded">Download Successful</string>
+    <string name="error_content_failed_to_download">Download Failed</string>
+    <string name="error_external_storage_not_ready">External Storage Not Ready!</string>
+
+    <string-array name="treat_names">
+        <item>Ice Cream Sandwich</item>
+        <item>Eclair</item>
+        <item>Cupcake</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Doughnut</item>
+        <item>Jelly Bean</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>KitKat</item>
+    </string-array>
+
+    <string-array name="treat_image_urls">
+        <item>http://cdn.instructables.com/FFQ/0ZWN/GBF5KUPE/FFQ0ZWNGBF5KUPE.MEDIUM.jpg</item>
+        <item>http://herbivoracious.com/images/old/6a00e008d618bb8834011278dedec228a4-800wi.jpg</item>
+        <item>http://goodtoknow.media.ipcdigital.co.uk/111/00000ab3a/63be/victoria-rainbow-cupcakes.jpg</item>
+        <item>https://pulsd.com/system/images/7094/original/frozen-yogurt-image.jpg?1286471682</item>
+        <item>http://d1doqjmisr497k.cloudfront.net/~/media/Recipe-Photos/McCormick/Dessert/1007x545/Gingerbread-Men-Cookies.ashx?vd=20130326T174340</item>
+        <item>http://www.smart-restaurants.co.uk/site/wp-content/uploads/2014/05/Ice-Ring-Doughnuts.jpg</item>
+        <item>http://cdni.wired.co.uk/620x413/g_j/jellyb.jpg</item>
+        <item>http://i-cdn.phonearena.com/images/articles/166628-thumb/lolli.jpg</item>
+        <item>http://www.sweetieworld.co.uk/images/sweets/20110815181337014_l/Marshmallow/Mini_Marshmallows.jpg</item>
+        <item>http://cdn2.knowyourmobile.com/sites/knowyourmobilecom/files/styles/gallery_wide/public/8/59/android_kitkat_chocolate.jpg?itok=IWRCbe9p</item>
+    </string-array>
+
+    <!-- Image Content Descriptions-->
+    <string name="content_description_treat">Treat</string>
+</resources>
