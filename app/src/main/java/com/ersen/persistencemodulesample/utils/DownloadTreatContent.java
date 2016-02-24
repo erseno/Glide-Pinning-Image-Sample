@@ -70,6 +70,7 @@ public class DownloadTreatContent extends AsyncTask<Void, Void, Integer> {
 
                 /** Create a directory within the app's external private directory so that these files are removed when the app is deleted etc. */
                 ZipFile zipFile = new ZipFile(tempZipFile);
+                @SuppressWarnings("ConstantConditions")
                 String treatImageFilePath = PersistenceModuleSampleApplication.getInstance().getExternalFilesDir(null).getAbsolutePath() + File.separator + "treats"; //The directory which will contain the images is called treats. Note ignore null warning because it is checked if external storage is ready before starting this task
                 File treatImageDirectory = new File(treatImageFilePath);
 

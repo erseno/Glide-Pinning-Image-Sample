@@ -15,9 +15,7 @@ import com.ersen.persistencemodulesample.models.Treat;
 
 import java.util.ArrayList;
 
-/**
- * Created by DellXPS on 1/3/2016.
- */
+
 public class TreatAdapter extends RecyclerView.Adapter<TreatAdapter.TreatViewHolder>{
 
     private ArrayList<Treat> mTreats;
@@ -38,8 +36,7 @@ public class TreatAdapter extends RecyclerView.Adapter<TreatAdapter.TreatViewHol
         Treat treat = mTreats.get(position);
         holder.getTreatName().setText(treat.getName());
         Glide.with(mContext)
-                .load(treat.getImageUrl())
-                .diskCacheStrategy(DiskCacheStrategy.NONE) //For the sample, Glide will not disk cache anything to disk
+                .load(treat)
                 .centerCrop()
                 .into(holder.getTreatImage());
     }
